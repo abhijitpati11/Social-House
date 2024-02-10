@@ -17,7 +17,9 @@ const PostDetails = () => {
   const { user } = useUserContext();
 
   // handle delete function
-  function handleDeletePost() {}
+  function handleDeletePost() {
+    alert('This feature is under maintainance, sorry for inconvinience')
+  }
 
   return (
     <div className="post_details-container">
