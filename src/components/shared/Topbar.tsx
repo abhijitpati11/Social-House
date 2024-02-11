@@ -21,8 +21,9 @@ const Topbar = () => {
           <img
             src="/assets/images/logo.svg"
             alt="logo"
-            width={130}
-            height={325}
+            width={90}
+            height={90}
+            className="rounded-full"
           />
         </Link>
 
